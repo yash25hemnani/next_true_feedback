@@ -7,3 +7,6 @@
 - 2. Write the models using mongoose
 - 3. Write Schema Validations using Zod
 - 4. Write the database connection
+- 5. Install Resend and React Email and setup
+- 6. Write the tsx for emails and create helper functions for sending them.
+- 7. Create standardized type for API Reponse
