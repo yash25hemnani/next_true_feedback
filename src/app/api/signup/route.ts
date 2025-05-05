@@ -101,7 +101,7 @@ export async function POST(request: NextRequest): Promise<NextResponse<ApiRespon
         return NextResponse.json({
             success: true,
             message: "User Registered Successfully! Please verify email"
-        }, { status: 500 })
+        }, { status: 200 })
 
     } catch (error) {
         console.error("Error registring error: ", error);
